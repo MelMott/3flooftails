@@ -8,7 +8,7 @@
   display: grid;
   grid-template-areas:
     'header header header header header header'
-    'menu main main main right right'
+    'menu main main main main main'
     'menu footer footer footer footer footer';
   gap: 10px;
   background-color: #2196F3;
@@ -30,8 +30,17 @@
 }
 
 .grid-container > footer {
-  background-color: aquamarine;
+  background-color: rgb(200, 127, 255);
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
+}
+
+* {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.photo { 
+  border-radius: 50%;
+  width: 150px;
 }
