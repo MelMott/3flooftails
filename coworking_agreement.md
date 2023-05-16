@@ -38,6 +38,11 @@ Talk through each section with your partner. Add notes on what you discussed and
 
 Group Fansite Topic: Our Dogs
 
+## Improvised Project
+- Work on index.html together.
+- We each work on a page for our own dog, that includes facts and a gallery for our dog.
+- We will also each create our own css stylesheets for our own pages.
+
 ## Signatures
 Julie Loh, Melinda Mott, Lou Loera _______________
 Date: __5/16/2023____
