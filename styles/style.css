@@ -45,7 +45,9 @@
   width: 200px;
 }
 
-.photo {
+.photo-anime {
+  border-radius: 50%;
+  width: 200px;
   animation: myAnim 2s ease 0s infinite normal forwards;
 }
 
