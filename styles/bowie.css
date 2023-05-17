@@ -1,0 +1,57 @@
+*{ margin:0; 
+    /* box-sizing:border-box; */
+}
+h1{
+    text-align:center;
+}
+
+.bowie-body{
+    font:16px/1.3 sans-serif;
+}
+
+.bowie-container{ 
+    /* width:1200px; */
+    margin:auto;
+}
+.bowie-header{
+    background:#faa;
+    padding:10px;
+}
+.bowie-nav{
+    background:#333;
+    padding:10px;
+    color:#fff;
+}
+.bowie-nav ul{
+    list-style:none;
+    padding:0;
+}
+.bowie-nav ul li{
+    float:left;
+    margin-right:10px;
+}
+.bowie-nav ul li a{
+    color:inherit;
+    display:block;
+    padding:8px 12px;
+}
+.bowie-main{
+    background:#afa;
+}
+.bowie-footer{
+    background:#aaf;
+    padding:10px;
+}
+section{
+    width: 75%;
+    float:left;
+    padding:10px;
+    background:#ccc;
+}
+
+.bowie-aside{
+    width: 25%;
+    float:left;
+    padding:10px;
+    background:#afa;
+}
