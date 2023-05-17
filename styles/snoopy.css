@@ -17,7 +17,7 @@
 .col-2 {
     display: flex;
     flex-direction: column;
-    flex: 5;
+    flex: 7;
 }
 
 .content {
@@ -49,16 +49,31 @@
     height: auto;
     vertical-align: middle;
     border-radius: 5px;
+    padding: 0.5em;
 }
 
-#image-gallery::after {
-    content: "";
-    flex-basis: 350px;
+ul li {
+    list-style-type: none;
+}
+
+nav > ul li:not(:last-child) {
+    margin-bottom: 2.5em;
 }
 
 .content > aside {
     background: #E4D4C8;
     flex: 1;
+}
+
+aside > ul li {
+    list-style-type: disc;
+    margin-bottom: 1em;
+    font-size: 1.2em;
+}
+
+aside > p {
+    font-size: 1.2em;
+    line-height: 1.5em;
 }
 
 header {
@@ -78,13 +93,6 @@ header, footer, article, nav, aside {
     padding: 1em;
 }
 
-ul li {
-    list-style-type: none;
-}
-
-li:not(:last-child) {
-    margin-bottom: 2em;
-}
 
 a {
     color: #A47786;
@@ -95,5 +103,5 @@ a:visited {
 }
 
 a:hover {
-    color: lightblue;
+    color: #9DB6CC;
 }
