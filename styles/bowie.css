@@ -27,7 +27,7 @@ h1{
     padding:0;
 }
 .bowie-nav ul li{
-    float:left;
+    /* float:left; */
     margin-right:10px;
 }
 .bowie-nav ul li a{
@@ -42,9 +42,9 @@ h1{
     background:#aaf;
     padding:10px;
 }
-section{
-    width: 75%;
-    float:left;
+.bowie-section{
+    /* width: 75%; */
+    /* float:left; */
     padding:10px;
     background:#ccc;
 }
@@ -55,3 +55,17 @@ section{
     padding:10px;
     background:#afa;
 }
+
+.bowie-photo { 
+    border-radius: 20%;
+    width: 300px;
+  }
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+}
+.box>* {
+    flex: 1 1 160px;
+}
+
