@@ -85,6 +85,12 @@ header {
     height: 500px;
 }
 
+.picture-container .polaroid:hover{
+  color: #111; 
+  background: greenyellow; 
+  box-shadow: 0 0 100px greenyellow; 
+}
+
 .picture-container .polaroid
 {
     position: absolute;
