@@ -14,11 +14,15 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0cm -3cm ;
-  padding: 10px;
+  /* padding: 10px; */
+}
+
+body{
+  margin: 0;
 }
 
 .grid-container > div {
-  background-color: rgba(58, 173, 48, 0.8);
+  background-color: rgba(113, 135, 246, 0.577);
   text-align: center;
   padding: 20px 40px;
   font-size: 30px;
@@ -28,6 +32,7 @@ header {
   font-size: 89px;
   text-align: right;
 }
+
 * {
   font-family: 'Indie Flower', cursive;
 }
@@ -39,42 +44,6 @@ header {
 .sizephoto {
   width: 300px;
 }
-
-/* .photo-anime {
-  border-radius: 50%;
-  width: 200px;
-  animation: myAnim 2s ease 0s infinite normal forwards;
-}
-
-@keyframes myAnim {
-	0%,
-	100% {
-		transform: translateX(0%);
-		transform-origin: 50% 50%;
-	}
-
-	15% {
-		transform: translateX(-30px) rotate(-6deg);
-	}
-
-	30% {
-		transform: translateX(15px) rotate(6deg);
-	}
-
-	45% {
-		transform: translateX(-15px) rotate(-3.6deg);
-	}
-
-	60% {
-		transform: translateX(9px) rotate(2.4deg);
-	}
-
-	75% {
-		transform: translateX(-6px) rotate(-1.2deg);
-	}
-} */
-
-
 
 .desc {
   padding: 15px;
@@ -118,8 +87,8 @@ header {
 
 .picture-container .image1
 {
-    left: 100px;
-    top: 100px;
+    left: 70px;
+    top: 130px;
     transform: rotate(-20deg);
     -ms-transform: rotate(-20deg);
     -webkit-transform: rotate(-20deg);
@@ -127,8 +96,8 @@ header {
 
 .picture-container .image2
 {
-    left: 500px;
-    top: 100px;
+    left: 590px;
+    top: 150px;
     transform: rotate(20deg);
     -ms-transform: rotate(20deg);
     -webkit-transform: rotate(20deg);
@@ -136,8 +105,8 @@ header {
 
 .picture-container .image3
 {
-    left: 300px;
-    top: 25px;
+    left: 320px;
+    top: 55px;
     transform: rotate(5deg);
     -ms-transform: rotate(5deg);
     -webkit-transform: rotate(5deg);
