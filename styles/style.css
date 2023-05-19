@@ -10,7 +10,10 @@
     'footer footer footer footer footer footer';
   gap: 10px;
   background-color: #2196F3;
-  background-image: url(/images/footprint-dog-paw-animal.jpg);
+  background-image: url(/images/puppaws.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0cm -3cm ;
   padding: 10px;
 }
 
@@ -87,8 +90,8 @@ header {
 
 .picture-container .polaroid:hover{
   color: #111; 
-  background: greenyellow; 
-  box-shadow: 0 0 100px greenyellow; 
+  background: rgb(251, 255, 216); 
+  box-shadow: 0 0 100px rgb(245, 254, 201); 
 }
 
 .picture-container .polaroid
