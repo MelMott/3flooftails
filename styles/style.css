@@ -1,6 +1,9 @@
 .item1 { grid-area: header; }
 .item3 { grid-area: main; }
-.item5 { grid-area: footer; }
+.item5 { 
+  grid-area: footer; 
+  background-color: rgba(113, 135, 246, 0.577);
+}
 
 .grid-container {
   display: grid;
