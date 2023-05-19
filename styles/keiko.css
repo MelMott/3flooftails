@@ -1,0 +1,110 @@
+.gallery {
+--s: 250px; /* control the size */
+--g: 20px;  /* control the gap */
+display: grid;
+margin: calc(var(--s) + var(--g));
+}
+
+.gallery > img {
+grid-area: 1/1;
+width: var(--s);
+aspect-ratio: 1.15;
+object-fit: cover;
+clip-path: polygon(25% 0%, 75% 0%, 100% 50%,75% 100%,25% 100%,0 50%);
+transform: rotate(var(--_a,0deg)) translateY(calc(100% + var(--g))) rotate(calc(-1*var(--_a,0deg))) scale(var(--_t,1));
+cursor: pointer;
+filter: grayscale(80%);
+transition: .2s linear;
+}
+.gallery > img:hover {
+filter: grayscale(0);
+z-index: 1;
+--_t: 1.2;
+}
+
+.gallery > img:nth-child(1) {--_a:  0deg}
+.gallery > img:nth-child(2) {--_a:  60deg}
+.gallery > img:nth-child(3) {--_a:  120deg}
+.gallery > img:nth-child(4) {--_a: -60deg}
+.gallery > img:nth-child(5) {--_a: -120deg}
+.gallery > img:nth-child(6) {--_a:  180deg}
+.gallery > img:nth-child(7) {transform: scale(var(--_t,1))}
+
+body {
+margin: 0;
+min-height: 100vh;
+display: grid;
+place-content: center;
+background: #aabbfb;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800,700);
+h2{
+font-size: 8.0em;
+text-transform: uppercase;
+font-family: 'Open Sans Pro', sans-serif;
+background: url(https://24.media.tumblr.com/tumblr_m87dri70zh1qzla33o1_500.gif);
+background-size: contain;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.ptitle{
+    margin: 0;
+    position: absolute;
+    left: 35px;
+    top: 20px;
+    z-index: 1;
+}
+
+.facts{
+    margin: 0;
+    position: absolute;
+    text-align: justify;
+    text-justify: inter-word;
+    left: 910px;
+    right: 60px;
+    top: 610px;
+    z-index: 1;
+
+}
+
+h1{font-size: 32px; color: #444; font-family: Source Sans Pro, Arial, sans-seirf;}
+
+#mySidenav a {
+position: absolute; /* Position them relative to the browser window */
+left: -80px; /* Position them outside of the screen */
+transition: 0.3s; /* Add transition on hover */
+padding: 15px; /* 15px padding */
+width: 100px; /* Set a specific width */
+text-decoration: none; /* Remove underline */
+font-size: 20px; /* Increase font size */
+color: white; /* White text color */
+border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+}
+
+#mySidenav a:hover {
+left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top with a green background */
+#home {
+top: 160px;
+background-color: #dddbfa;
+}
+
+#snoopy {
+top: 220px;
+background-color: #9e9bc5; 
+}
+
+#bowie {
+top: 280px;
+background-color: #6d6a8d; 
+}
+
+#contact {
+top: 340px;
+background-color: #48465e 
+}
